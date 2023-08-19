@@ -26,9 +26,6 @@ return new class extends Migration
             $table->unsignedBigInteger('category_id');
             $table->text('tax_ids')->nullable();
             $table->timestamps();
-
-            $table->foreign('vendor_id')->references('id')->on('vendors');
-            $table->foreign('category_id')->references('id')->on('categories');
         });
     }
 

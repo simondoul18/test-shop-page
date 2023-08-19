@@ -105,6 +105,6 @@ const calculatePrice = computed(() => {
     }else{
         price = store.QVProduct.price
     }
-    return (price * quantity.value)
+    return (price * (quantity.value > 0 ? quantity.value : 1))
 })
 </script>

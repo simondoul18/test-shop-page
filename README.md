@@ -34,11 +34,11 @@ npm Install
 
 ## Create `.env` file by copying `.env.example` file
 
-Create .env file and set database and APP_URL
+Create .env file on root and frontend folders and set database and APP_URL
 
 ## Migrate Database
 ```console
-php artisan migrate
+php artisan migrate --seed
 ```
 
 ## Generate key
@@ -55,4 +55,4 @@ npm run dev
 ## You are you are all set.
 
 Author: Muhammad Usman <br />
-Date: 27-July-2023
+Date: 18-Aug-2023
