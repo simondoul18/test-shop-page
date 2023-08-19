@@ -1,0 +1,23 @@
+https://woocommerce.com/products/measurement-price-calculator/
+
+https://www.omnicalculator.com/everyday-life/unit-price
+
+Price Calculator Types: 
+	Weight, Measurement, Volume (Optional)
+
+
+Measurement Unit:
+	ft,Inc,m,cm,mm,km,mile,yard
+Weight Unit:
+	kb
+	
+
+Get Per Inch or Per kg price and calculate it.
+
+
+Choose Type
+Choose Unit
+Add price per unit
+Display Mendatory Fields related to unit
+Calculate price
+Save in DB with title for re-use
